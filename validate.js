@@ -86,7 +86,6 @@ function validate(data, rules) {
     }
   }
 
-
   if (arrFalse.errors.length > 0) {
     return arrFalse;
   } else {
